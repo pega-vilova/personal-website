@@ -1,0 +1,12 @@
+.logo p::after {
+  content: "";
+  display: inline-block;
+  margin-left: 1px;
+  width: 5px;
+  height: 5px;
+  background: #f6430b;
+}
+
+.massage p {
+  writing-mode: sideways-lr;
+}
